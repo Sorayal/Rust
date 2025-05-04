@@ -1,0 +1,9 @@
+# Name des Packages darf nicht mit dependency Namen übereinstimmen => ambigious call
+[package]
+name = "ferris-says-test"
+version = "0.1.0"
+edition = "2021"
+
+# Abhängigkeiten
+[dependencies]
+ferris-says = "0.3.1"
