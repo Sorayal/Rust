@@ -1,5 +1,0 @@
-https://doc.rust-lang.org/rust-by-example/hello.html
-
-https://github.com/rust-lang/rustlings/
-
-https://www.rust-lang.org/learn
