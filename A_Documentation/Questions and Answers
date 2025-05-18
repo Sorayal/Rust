@@ -1,0 +1,35 @@
+1. What is the command-line command for the Rust compiler?
+2. What file extension do Rust files have?
+3. Where do we write our Rust source code?
+4. What does the cargo build command do?
+5. Every Rust program must have a function called...
+6. What command deletes all compiled executables from the current project?
+7. What is the default mode that cargo builds the project in?
+8. Where does Rust place the final executable when you run cargo build --release?
+9. What command updates Rust to the latest version?
+10. How can you check if a program has any violations without compiling it?
+11. What keyword declares a function?
+12. What is the section between a function's opening and closing curly braces called?
+13. What single Cargo command compiles the project and runs the executable?
+14. What symbols create a comment in Rust?
+15. What command styles the code in your project according to community standards?
+
+
+
+
+
+Zu 1. rustc
+Zu 2. .rs
+Zu 3. In the source folder (src), where the .rs files exist.
+Zu 4. It builds the whole Rust project. All source files will be compiled. Result: Binary (Executable)
+Zu 5. main()
+Zu 6. cargo clean
+Zu 7. Debug Mode. For release the flag --release must be set.
+Zu 8. In the target/release folder.
+Zu 9. rustup update
+Zu 10. cargo check
+Zu 11. fn
+Zu 12. function body or just body or block
+Zu 13. cargo run
+Zu 14. // or /* */
+Zu 15. cargo fmt or rustfmt

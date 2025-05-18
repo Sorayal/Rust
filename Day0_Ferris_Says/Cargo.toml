@@ -1,0 +1,14 @@
+# https://doc.rust-lang.org/nightly/cargo/reference/manifest.html
+[package]
+name = "ferris_says"
+version = "1.0.0"
+edition = "2024"
+description = "Just Ferris says"
+
+[dependencies]
+ferris-says = "0.3.2"
+
+# https://crates.io/crates/ferris-says
+
+# cargo.toml can be edited and contains the names of the dependencies.
+# Cargo.lock shouldn't be edited.It contains specific info for the dependencies.
