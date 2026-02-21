@@ -35,6 +35,8 @@ fn main() {
 fn print_lines() {
     print!("Hello, world!");
     print!("I am Maru.");
-    print!("Nice to meet you.");
+    print!("Nice to meet you.\n");
+    // use this instead of print for error messages.!
+    eprint!("Process or Errormessage!")
 }
 
